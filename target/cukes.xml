@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="0.153753">
+<testcase classname="Portal Login" name="Login to MdesManager application" time="0.139629">
+<system-out><![CDATA[Given select the browser type to open.......................................passed
+When browser is triggered...................................................passed
+Then verify if browser is displayed.........................................passed
+Given MdesManager is launched in Chrome browser.............................passed
+When User enters username "sabari" and password "1234" and click login......passed
+Then Login should be successful.............................................passed
+And Project Dashboard page displayed is "true"..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Portal Login" name="Login to MdesManager application" time="0.001201">
+<system-out><![CDATA[Given select the browser type to open.......................................passed
+When browser is triggered...................................................passed
+Then verify if browser is displayed.........................................passed
+Given MdesManager is launched in Chrome browser.............................passed
+When User enters username "nath" and password "5678" and click login........passed
+Then Login should be successful.............................................passed
+And Project Dashboard page displayed is "false".............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Portal Login" name="Login to MdesManager application" time="0.000956">
+<system-out><![CDATA[Given select the browser type to open.......................................passed
+When browser is triggered...................................................passed
+Then verify if browser is displayed.........................................passed
+Given MdesManager is launched in Chrome browser.............................passed
+When User enters username "nath" and password "5678" and click login........passed
+Then Login should be successful.............................................passed
+And Project Dashboard page displayed is "false".............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Portal Login" name="DataTable for Login to MdesManager application" time="0.002864">
+<system-out><![CDATA[Given select the browser type to open.......................................passed
+When browser is triggered...................................................passed
+Then verify if browser is displayed.........................................passed
+Given MdesManager is launched in Chrome browser.............................passed
+When User enters below details for SignUp...................................passed
+Then Login should be successful.............................................passed
+And Project Dashboard page displayed is "false".............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Portal Login" name="Parameterization for Login to MdesManager application" time="0.000781">
+<system-out><![CDATA[Given select the browser type to open.......................................passed
+When browser is triggered...................................................passed
+Then verify if browser is displayed.........................................passed
+Given MdesManager is launched in Chrome browser.............................passed
+When User enters sabari1 and nath1 on login page and click login............passed
+Then Login should be successful.............................................passed
+And Project Dashboard page displayed is "true"..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Portal Login" name="Parameterization for Login to MdesManager application 2" time="0.001255">
+<system-out><![CDATA[Given select the browser type to open.......................................passed
+When browser is triggered...................................................passed
+Then verify if browser is displayed.........................................passed
+Given MdesManager is launched in Chrome browser.............................passed
+When User enters sabari2 and nath2 on login page and click login............passed
+Then Login should be successful.............................................passed
+And Project Dashboard page displayed is "true"..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Portal Login" name="Parameterization for Login to MdesManager application 3" time="0.00484">
+<system-out><![CDATA[Given select the browser type to open.......................................passed
+When browser is triggered...................................................passed
+Then verify if browser is displayed.........................................passed
+Given MdesManager is launched in Chrome browser.............................passed
+When User enters sabari3 and nath3 on login page and click login............passed
+Then Login should be successful.............................................passed
+And Project Dashboard page displayed is "true"..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Portal Login" name="Parameterization for Login to MdesManager application 4" time="0.002227">
+<system-out><![CDATA[Given select the browser type to open.......................................passed
+When browser is triggered...................................................passed
+Then verify if browser is displayed.........................................passed
+Given MdesManager is launched in Chrome browser.............................passed
+When User enters sabari4 and nath4 on login page and click login............passed
+Then Login should be successful.............................................passed
+And Project Dashboard page displayed is "true"..............................passed
+]]></system-out>
+</testcase>
+</testsuite>
