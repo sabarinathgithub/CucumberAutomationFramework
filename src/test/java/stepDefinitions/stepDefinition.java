@@ -16,6 +16,7 @@ public class stepDefinition {
 	@Given("^select the browser type to open$")
 	public void select_the_browser_type_to_open() throws Throwable {
 	    System.out.println("Select the browser to open-123");
+	    System.out.println("Select the browser to open-456");
 	}
 
 	@When("^browser is triggered$")
