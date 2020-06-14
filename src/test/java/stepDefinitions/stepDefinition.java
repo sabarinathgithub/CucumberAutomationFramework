@@ -15,13 +15,14 @@ public class stepDefinition {
 
 	@Given("^select the browser type to open$")
 	public void select_the_browser_type_to_open() throws Throwable {
-	    System.out.println("Select the browser to open");
+	    System.out.println("Select the browser to open-123");
 	}
 
 	@When("^browser is triggered$")
 	public void browser_is_triggered() throws Throwable {
 	   System.out.println("Triggered the browser successfully-1");
 	   System.out.println("Triggered the browser successfully-2");
+	   System.out.println("Triggered the browser successfully-3");
 	}
 
 	@Then("^verify if browser is displayed$")
